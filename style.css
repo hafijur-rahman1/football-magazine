@@ -1,0 +1,128 @@
+/* font style************* */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+ }
+main{
+    background-color: rgb(10, 63, 161);
+    padding: 5px;
+}
+ 
+
+/************ navbar style******************** */
+
+ nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+}
+nav{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#button{
+    color: white;
+    background-color:#E02C6D ;
+    padding: 10px;
+}
+
+nav a:hover{
+    zoom: 20%;
+}
+
+/********** main section style *********/
+
+.section-two{
+    width: 40%;
+    
+}
+.section-one{
+    margin-top: 40px;
+    width: 40%;
+    color: white;
+}
+.section-one a{
+    text-decoration: none;
+    font-size: small;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px;
+}
+
+section img{
+    width: 100%;
+} 
+section{
+    
+     padding:  80px; 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* player information********** */
+
+
+.players-section{
+    margin: 70px 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-info{
+    width: 330px;
+    height: 474px;
+    /* margin-left: 10px; */
+    margin-bottom: 25px;
+    padding: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);      
+}
+.player-info img{
+    width: 300px;
+    height: 256px;
+}
+
+/* ***************last section ******/
+
+.hilight-artical a{
+    text-decoration: none;
+    font-size: small;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px;
+}
+
+/* footer***************** */
+
+footer img{
+    width: 50%;
+    
+}
+
+
+footer{
+    padding-left: 30%;
+   
+}
+i{
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+
+/********* Media query************** */
+@media only screen and (max-width:668px) {
+    section{
+        grid-template-columns: repeat(1, 1fr );
+    }
+    .players-section{
+        grid-template-columns: repeat(1, 1fr );
+        
+    }
+  
+}  
+    
